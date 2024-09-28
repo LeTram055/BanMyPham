@@ -1,0 +1,125 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #33703a;
+    position: sticky !important;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    color: white;
+    font-weight: 600;
+}
+
+.icon-header {
+    padding : 0 12px;
+    position: relative;
+    margin: 0 5px;
+    font-size: 25px;
+    color: white;
+}
+
+#count_book_header {
+  position        : absolute;
+  top             : -6px;
+  right           : -3px;
+  background-color: #b81b21;
+  border-radius   : 50%;
+  display         : inline-block;
+  width           : 19px;
+  text-align      : center;
+  font-size       : 12px;
+  color           : #fff;
+}
+/*footer*/
+.footer {
+    background-color: #33703a;
+    width: 100%;
+}
+
+.logo-footer {
+    padding-top: 10px;
+    min-width: 50px;
+    height: 120px;
+}
+
+.footer-content{
+    margin-top: 30px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: white;
+    text-align: justify;
+}
+
+.icon-footer {
+    margin: 3px;
+    color: white;
+    font-size: 30px;
+}
+
+
+/*product*/
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.line {
+    border-top: 5px solid #33703a;
+}
+
+.product-link{
+    text-decoration: none;
+    color: black;
+}
+
+.product-item {
+    border: 2px solid #33703a;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Áp dụng hiệu ứng bóng */
+.product-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease;
+}
+
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-item h5 {
+    margin-top: 10px;
+    margin-bottom: 5px; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+}
+
+.price{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #33703a;
+}
+
+/* cart */
+.table-cart {
+  border : 2px solid black;
+  padding: 10px;
+}
+.tbody-cart img {
+  width : auto;
+  height: 80px;
+}
+
+/*hỏi đáp*/
+.contact {
+    color: #39ab46;
+}
